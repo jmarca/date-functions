@@ -1,0 +1,16 @@
+{
+  "author": "James E. Marca <jmarca@translab.its.uci.edu>",
+  "name": "date-functions",
+  "description": "clone of Baron Schwartz's super-fast js date formatter",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jmarca/date-functions",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jmarca/date-functions.git"
+  },
+  "engines": {
+    "node": ">0.6"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
