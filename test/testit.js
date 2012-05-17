@@ -22,14 +22,14 @@ exports.testFormat = function(test){
                   ,"l, M jS, Y"
                   ,"Y-m-d H:i:s"
                   ,"D \\t\\h\e jS"
-                  ,"Y \\week ww"];
+                  ,"Y \\week W"];
 
     var expecting = ["2005-10-05"
                     ,"10/5/05"
                     ,"Wednesday, Oct 5th, 2005"
                     ,"2005-10-05 00:13:00"
                     ,"Wed the 5th"
-                    ,"2005 week 33"]
+                    ,"2005 week 40"]
 
     var datestring = "2005-10-05 12:13 am"
     var d = Date.parseDate(datestring,"Y-m-d g:i a")
