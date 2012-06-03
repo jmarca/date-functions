@@ -1,8 +1,6 @@
 /* global exports, require, console */
 
 var df = require('../lib/date-functions.js');
-var source='/data/counties/hourly/2009/06019.json';
-var expected='/data/counties/hourly/2009/Fresno.json';
 
 exports.testParse = function(test){
     test.expect(5);
